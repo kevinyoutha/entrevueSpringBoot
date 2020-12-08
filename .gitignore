@@ -1,0 +1,29 @@
+/target
+/.m2
+/.classpath
+/.project
+/.settings
+/caches
+/local.properties
+.*.swp
+.DS_Store
+/src/main/liberty/config/server.env
+
+src/main/liberty/config/server.env
+src/main/resources/localdev-config.json
+
+#protect credentials properties
+src/main/webapp/META-INF/*.properties
+src/main/webapp/META-INF/microprofile-config.properties
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+
+
+
+
+
+
